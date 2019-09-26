@@ -14,7 +14,7 @@ public class Main {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException { 
         File f = new File("fitxer.html");
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(f))) {
             bw.write("<html>");bw.newLine();
